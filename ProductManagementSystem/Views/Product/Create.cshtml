@@ -1,0 +1,33 @@
+﻿@model ProductManagementSystem.Models.Product
+
+<h2>Add Product</h2>
+
+<form method="post" enctype="multipart/form-data">
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <label>Name</label>
+            <input type="text" name="Name" class="form-control" />
+        </div>
+
+        <div class="col-md-4">
+            <label>Price</label>
+            <input type="text" name="Price" class="form-control" />
+        </div>
+
+        <div class="col-md-4">
+            <label>Description</label>
+            <input type="text" name="Description" class="form-control" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <input type="file" name="ImageFile" class="form-control" />
+        </div>
+        <div class="col-md-4">
+            <button type="submit" class="btn btn-success">Save</button>
+        </div>
+    </div>
+
+
+</form>
